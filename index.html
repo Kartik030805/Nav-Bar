@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="logo-black.png" alt="ahir logo" class="header__logo" />
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li><a class="navbar__link" href="#">Home</a></li>
+          <li><a class="navbar__link" href="#">About</a></li>
+          <li><a class="navbar__link" href="#">Services</a></li>
+          <li><a class="navbar__link" href="#">Portfolio</a></li>
+          <li><a class="navbar__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile__nav-btn">
+        <ion-icon
+          name="menu-outline"
+          class="nav__open-btn nav__icon"
+        ></ion-icon>
+        <ion-icon
+          name="close-outline"
+          class="nav__close-btn nav__icon"
+        ></ion-icon>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section__home">
+        <div class="container__home">
+          <p class="home__subtitle">Home Section</p>
+        </div>
+      </section>
+
+      <section class="section__services">
+        <div class="container__services">
+          <p class="services__subtitle">Services Section</p>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
